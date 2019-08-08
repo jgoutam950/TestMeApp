@@ -1,0 +1,20 @@
+package selenium;
+
+import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
+
+public class AssertDemo {
+  @Test
+  public void AssDemo() {
+	  SoftAssert sa=new SoftAssert();
+	  
+	 System.out.println("Checking for 1st validation");
+	 sa.assertEquals(10,10);
+	 
+	 System.out.println("Checking for 2nd validation");
+	 sa.assertEquals("hello","welcome");
+	 sa.assertAll();
+	 
+	  
+  }
+}

@@ -1,0 +1,8 @@
+package Demo1;
+
+
+import org.testng.annotations.Test;
+
+public class NewTest5 {
+	public static WebDriver driver;
+}

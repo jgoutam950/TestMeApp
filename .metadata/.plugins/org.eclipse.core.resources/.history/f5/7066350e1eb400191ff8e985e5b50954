@@ -1,0 +1,29 @@
+package Demo1;
+
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class NewTest {
+
+	WebDriver driver;
+	  @BeforeTest
+	  public void configure() {
+		  //driver= BrowserDriver.getDriver("explorer");
+		  System.setProperty("webdriver.chrome.driver", "C:\\Test\\chromedriver_win32\\chromedriver.exe");
+		  driver= new ChromeDriver();
+		  //driver.manage().window().maximize();
+	  }
+	  @Test
+	  public void openapplication()
+	  {
+		  driver.get("http://10.232.237.143:443/TestMeApp");
+	  }
+	  //@AfterTest
+	 /* public void closeBrowser()
+	  {
+		  driver.close();
+	  }*/
+}

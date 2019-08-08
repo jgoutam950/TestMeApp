@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+		<classes>
+			<class name="selenium.NewTest" />
+			<class name="selenium.TestPriority" />
+			<class name="selenium.AssertDemo" />
+			
+		</classes>
+	</test> <!-- Test -->
+	 <test name="TC001">
+    <classes>
+      <class name="selenium.TestClass01"/>
+    </classes>
+  </test> <!-- Test -->.
+  <test name="TC002">
+    <classes>
+      <class name="selenium.TestClass02"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,23 @@
+package selenium;
+
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+public class NewTest2 {
+  @Test
+  public void logintest() {
+  }
+  
+  @DataProvider
+  public Object[][] loginCredentials(){
+	  
+	  Object[][] inputs = {
+			  
+			  {"lalitha","Password123"},
+			  {"admin","Password456"},
+			  {"abc123","password789"}
+	  };
+	  return inputs;
+	  
+  }
+}

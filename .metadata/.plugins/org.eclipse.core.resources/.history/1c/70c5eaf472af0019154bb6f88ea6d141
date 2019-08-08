@@ -1,0 +1,19 @@
+package selenium;
+
+import org.testng.annotations.Test;
+
+public class TestClass01 {
+  @Test
+  public void method1() {
+	  System.out.println("in test method1");
+  }
+  @Test
+  public void methd2() {
+ 
+	  System.out.println("in test method2");}
+  
+  @Test
+  public void method3() {
+  
+	  System.out.println("in test method3");}
+}
