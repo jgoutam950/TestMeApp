@@ -28,3 +28,6 @@ When lalitha searches for below products
 |Travel|
 |Laptop|
 Then product should be added in the cart if possible
+
+
+

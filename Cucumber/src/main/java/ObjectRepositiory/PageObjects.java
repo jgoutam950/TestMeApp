@@ -9,5 +9,7 @@ public class PageObjects {
 
 	@FindBy(how = How.XPATH, using = "//a[@href='login.htm']")
 	public WebElement signin;
+	
+	
 
 }
